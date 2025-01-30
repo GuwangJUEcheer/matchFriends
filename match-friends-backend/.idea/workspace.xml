@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fa5116bb-6864-45da-9b71-b4f5322154a9" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/UserManageSysApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/common/BaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/common/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/common/ResultUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/domain/UserLoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/domain/UserRegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hokumei/sys/matchfriends/service/UserServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/hokumei/sys/usermanagesys/model/User.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JvmLoggingSettingsStorage">
+    <option name="loggerId" value="Lombok Slf4j" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2pde4fHnlTam3JOSBfAjCtymN7E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.rest-api | #1.executor": "Run",
+    "JUnit.CompleteFutureTest.test.executor": "Run",
+    "JUnit.CompleteFutureTest.test3.executor": "Run",
+    "JUnit.CompleteFutureTest.test4.executor": "Run",
+    "JUnit.DynamicProxyTest.executor": "Run",
+    "JUnit.DynamicProxyTest.test.executor": "Run",
+    "JUnit.DynamicProxyTest.test2.executor": "Run",
+    "JUnit.InsetMultiUsers (1).executor": "Run",
+    "JUnit.InsetMultiUsers (2).executor": "Run",
+    "JUnit.InsetMultiUsers.executor": "Run",
+    "JUnit.InsetMultiUsers.insertUsers.executor": "Run",
+    "JUnit.InsetMultiUsersTest.insertUsersByFuture.executor": "Run",
+    "JUnit.OtherTest.executor": "Run",
+    "JUnit.OtherTest.test.executor": "Run",
+    "JUnit.RedisTest.executor": "Run",
+    "JUnit.RedisTest.test.executor": "Debug",
+    "JUnit.RedissonTest.testRedisson.executor": "Run",
+    "JUnit.RedissonTest.testWatchDog.executor": "Run",
+    "JUnit.ScheduleTest.test.executor": "Run",
+    "JUnit.UserMapperTest.executor": "Run",
+    "JUnit.UserServiceTest.executor": "Run",
+    "JUnit.UserServiceTest.insert.executor": "Run",
+    "Maven.cleanProject.executor": "Run",
+    "Maven.match-friends [dependency:resolve].executor": "Run",
+    "Maven.match-friends [install...].executor": "Debug",
+    "Maven.match-friends [install].executor": "Debug",
+    "Maven.match-friends-ci.executor": "Run",
+    "Maven.matchfriends [clean,install...].executor": "Debug",
+    "Maven.user-manage-sys [clean,install...].executor": "Debug",
+    "Maven.user-manage-sys [clean,install].executor": "Run",
+    "Notification.DisplayName-DoNotAsk-Database detector": "数据库检测器",
+    "Notification.DoNotAsk-Database detector": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.UserManageSysApplication.executor": "Debug",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/MyProject/match-friends-backend/src/main/java/hokumei/sys/matchfriends/service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.mocha.mocha_node_package_dir": "",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.UserManageSysApplication.executor": "Run"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MyProject\match-friends-backend\src\main\java\hokumei\sys\matchfriends\service" />
+      <recent name="C:\MyProject\match-friends-backend\src\main\java\hokumei\sys\matchfriends\service\impl" />
+      <recent name="C:\MyProject\match-friends-backend\src\main\java\hokumei\sys\matchfriends\model" />
+      <recent name="C:\MyProject\match-friends-backend\src\main\java\hokumei\sys\matchfriends\mapper" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MyProject\match-friends-backend" />
+      <recent name="C:\MyProject\user-manage-sys\src\test" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="hokumei.sys.usermanagesys.service" />
+      <recent name="hokumei.sys.usermanagesys.mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hokumei.sys.matchfriends.domain" />
+      <recent name="hokumei.sys.matchfriends.mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.OtherTest">
+    <configuration name="DynamicProxyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="match-friends" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hokumei.sys.matchfriends.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hokumei.sys.matchfriends.service" />
+      <option name="MAIN_CLASS_NAME" value="hokumei.sys.matchfriends.service.DynamicProxyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicProxyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="match-friends" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hokumei.sys.matchfriends.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hokumei.sys.matchfriends.service" />
+      <option name="MAIN_CLASS_NAME" value="hokumei.sys.matchfriends.service.DynamicProxyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicProxyTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="match-friends" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hokumei.sys.matchfriends.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hokumei.sys.matchfriends.service" />
+      <option name="MAIN_CLASS_NAME" value="hokumei.sys.matchfriends.service.DynamicProxyTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OtherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="match-friends" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hokumei.sys.matchfriends.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hokumei.sys.matchfriends.service" />
+      <option name="MAIN_CLASS_NAME" value="hokumei.sys.matchfriends.service.OtherTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OtherTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="match-friends" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hokumei.sys.matchfriends.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hokumei.sys.matchfriends.service" />
+      <option name="MAIN_CLASS_NAME" value="hokumei.sys.matchfriends.service.OtherTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="match-friends-backend" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="match-friends-backend" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cleanProject" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="match-friends [dependency:resolve]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="dependency:resolve" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="match-friends-ci" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserManageSysApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../Program Files/Java/jdk-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="match-friends" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hokumei.sys.matchfriends.UserManageSysApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="未命名" type="mocha-javascript-test-runner" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.DynamicProxyTest" />
+      <item itemvalue="JUnit.DynamicProxyTest.test" />
+      <item itemvalue="JUnit.DynamicProxyTest.test2" />
+      <item itemvalue="JUnit.OtherTest" />
+      <item itemvalue="JUnit.OtherTest.test" />
+      <item itemvalue="Maven.cleanProject" />
+      <item itemvalue="Maven.match-friends [dependency:resolve]" />
+      <item itemvalue="Maven.match-friends-ci" />
+      <item itemvalue="Mocha.未命名" />
+      <item itemvalue="Spring Boot.UserManageSysApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OtherTest" />
+        <item itemvalue="JUnit.OtherTest.test" />
+        <item itemvalue="JUnit.DynamicProxyTest.test2" />
+        <item itemvalue="JUnit.DynamicProxyTest" />
+        <item itemvalue="JUnit.DynamicProxyTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa5116bb-6864-45da-9b71-b4f5322154a9" name="Changes" comment="" />
+      <created>1733100190845</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733100190845</updated>
+      <workItem from="1733100191494" duration="17178000" />
+      <workItem from="1733207980812" duration="5733000" />
+      <workItem from="1733391547561" duration="9000" />
+      <workItem from="1733391565605" duration="10252000" />
+      <workItem from="1733791383725" duration="6220000" />
+      <workItem from="1733925563218" duration="3082000" />
+      <workItem from="1733929114607" duration="34000" />
+      <workItem from="1733929161812" duration="285000" />
+      <workItem from="1733929461690" duration="142000" />
+      <workItem from="1733971672980" duration="5152000" />
+      <workItem from="1734327138560" duration="1649000" />
+      <workItem from="1734331139183" duration="1592000" />
+      <workItem from="1734517364286" duration="8889000" />
+      <workItem from="1734610829096" duration="5616000" />
+      <workItem from="1734915749333" duration="2883000" />
+      <workItem from="1735263522937" duration="17392000" />
+      <workItem from="1736238175438" duration="176000" />
+      <workItem from="1736238358777" duration="119000" />
+      <workItem from="1736238492067" duration="21000" />
+      <workItem from="1736238522175" duration="83000" />
+      <workItem from="1736238621981" duration="1166000" />
+      <workItem from="1736239817148" duration="24000" />
+      <workItem from="1736239854530" duration="5806000" />
+      <workItem from="1736250862621" duration="10215000" />
+      <workItem from="1736484965830" duration="1333000" />
+      <workItem from="1736486312946" duration="571000" />
+      <workItem from="1736496171947" duration="9000" />
+      <workItem from="1736594066462" duration="1808000" />
+      <workItem from="1736602731061" duration="2591000" />
+      <workItem from="1736668702829" duration="16744000" />
+      <workItem from="1736902812855" duration="11048000" />
+      <workItem from="1736987799438" duration="6362000" />
+      <workItem from="1737363625289" duration="156000" />
+      <workItem from="1737365503986" duration="1055000" />
+      <workItem from="1737367870263" duration="38155000" />
+      <workItem from="1738026695762" duration="38407000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.cmd" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/controller/UserController.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/common/ErrorCode.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/controller/UserController.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/controller/UserController.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/service/impl/UserServiceImpl.java</url>
+          <line>198</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/service/impl/UserServiceImpl.java</url>
+          <line>256</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/java/hokumei/sys/matchfriends/service/RedisTest.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/model/User.java</url>
+          <line>152</line>
+          <properties class="hokumei.sys.matchfriends.model.User">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
