@@ -1,7 +1,7 @@
 package hokumei.sys.matchfriends.mapper;
 
-import hokumei.sys.matchfriends.model.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import hokumei.sys.matchfriends.model.User;
 
 /**
 * @author 17685

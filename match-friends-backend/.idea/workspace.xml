@@ -5,24 +5,98 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa5116bb-6864-45da-9b71-b4f5322154a9" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/UserManageSysApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/common/BaseResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/common/ErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/common/ResultUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/domain/UserLoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/domain/UserRegisterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/exception/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hokumei/sys/matchfriends/service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c4aace1e-eab9-460a-8a2e-f4d54b02ccff.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c4aace1e-eab9-460a-8a2e-f4d54b02ccff/storage_v2/_src_/schema/match-friends.jXG-wg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/common/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/common/BaseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/controller/TeamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/controller/TeamController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/domain/TeamAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/domain/TeamAddRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/domain/UserLoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/domain/UserLoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/domain/UserRegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/domain/UserRegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/mapper/TagsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/mapper/TagsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/service/TagsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/service/TagsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/service/TeamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/service/TeamService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/service/impl/TagsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/service/impl/TagsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/service/impl/TeamServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/service/impl/TeamServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/UserManageSysApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/common/BaseResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/common/ErrorCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/common/ResultUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/config/CorsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/config/MybatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/config/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/config/RedissionConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/constant/UserConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/constant/enums/TeamStatusEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/controller/TeamController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/domain/PageRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/domain/TeamAddRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/domain/TeamJoinRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/domain/TeamQuitRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/domain/TeamUpdateRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/domain/UserLoginRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/domain/UserRegisterRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/exception/BusinessException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/exception/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/job/PreCacheJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/mapper/TagsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/mapper/TeamMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/mapper/UserTeamMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/model/Tags.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/model/Team.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/model/UserTeam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/model/dto/TeamQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/model/vo/TeamUserVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/model/vo/UserVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/TagsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/TeamService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/UserTeamService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/impl/TagsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/impl/TeamServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/impl/UserServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/impl/UserTeamServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/TagsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/TeamMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserTeamMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/CompleteFutureTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/DynamicProxyTest$AService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/DynamicProxyTest$AServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/DynamicProxyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/InsetMultiUsersTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/OtherTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/ProxySample1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/RedisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/RedissonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/ScheduleTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/ScheduleTest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/ScheduleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/TransactionalTest$Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/TransactionalTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../match-friends-frontend/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../match-friends-frontend/components.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../match-friends-frontend/src/pages/TeamAddPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../match-friends-frontend/src/pages/TeamAddPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../match-friends-frontend/src/plugins/my-axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/../match-friends-frontend/src/plugins/my-axios.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +119,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/hokumei/sys/usermanagesys/model/User.java" root0="SKIP_INSPECTION" />
@@ -72,71 +146,71 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.rest-api | #1.executor": "Run",
-    "JUnit.CompleteFutureTest.test.executor": "Run",
-    "JUnit.CompleteFutureTest.test3.executor": "Run",
-    "JUnit.CompleteFutureTest.test4.executor": "Run",
-    "JUnit.DynamicProxyTest.executor": "Run",
-    "JUnit.DynamicProxyTest.test.executor": "Run",
-    "JUnit.DynamicProxyTest.test2.executor": "Run",
-    "JUnit.InsetMultiUsers (1).executor": "Run",
-    "JUnit.InsetMultiUsers (2).executor": "Run",
-    "JUnit.InsetMultiUsers.executor": "Run",
-    "JUnit.InsetMultiUsers.insertUsers.executor": "Run",
-    "JUnit.InsetMultiUsersTest.insertUsersByFuture.executor": "Run",
-    "JUnit.OtherTest.executor": "Run",
-    "JUnit.OtherTest.test.executor": "Run",
-    "JUnit.RedisTest.executor": "Run",
-    "JUnit.RedisTest.test.executor": "Debug",
-    "JUnit.RedissonTest.testRedisson.executor": "Run",
-    "JUnit.RedissonTest.testWatchDog.executor": "Run",
-    "JUnit.ScheduleTest.test.executor": "Run",
-    "JUnit.UserMapperTest.executor": "Run",
-    "JUnit.UserServiceTest.executor": "Run",
-    "JUnit.UserServiceTest.insert.executor": "Run",
-    "Maven.cleanProject.executor": "Run",
-    "Maven.match-friends [dependency:resolve].executor": "Run",
-    "Maven.match-friends [install...].executor": "Debug",
-    "Maven.match-friends [install].executor": "Debug",
-    "Maven.match-friends-ci.executor": "Run",
-    "Maven.matchfriends [clean,install...].executor": "Debug",
-    "Maven.user-manage-sys [clean,install...].executor": "Debug",
-    "Maven.user-manage-sys [clean,install].executor": "Run",
-    "Notification.DisplayName-DoNotAsk-Database detector": "数据库检测器",
-    "Notification.DoNotAsk-Database detector": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.UserManageSysApplication.executor": "Debug",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/MyProject/match-friends-backend/src/main/java/hokumei/sys/matchfriends/service",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.mocha.mocha_node_package_dir": "",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "项目",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true",
-    "应用程序.UserManageSysApplication.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.rest-api | #1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CompleteFutureTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CompleteFutureTest.test3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CompleteFutureTest.test4.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DynamicProxyTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DynamicProxyTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DynamicProxyTest.test2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InsetMultiUsers (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InsetMultiUsers (2).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InsetMultiUsers.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InsetMultiUsers.insertUsers.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InsetMultiUsersTest.insertUsersByFuture.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OtherTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OtherTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RedisTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RedisTest.test.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.RedissonTest.testRedisson.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RedissonTest.testWatchDog.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ScheduleTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserMapperTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.insert.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cleanProject.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.match-friends [dependency:resolve].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.match-friends [install...].executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.match-friends [install].executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.match-friends-ci.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.matchfriends [clean,install...].executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.user-manage-sys [clean,install...].executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.user-manage-sys [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-Database detector&quot;: &quot;数据库检测器&quot;,
+    &quot;Notification.DoNotAsk-Database detector&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.UserManageSysApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/MyProject/match-friends/match-friends-backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.mocha.mocha_node_package_dir&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.UserManageSysApplication.executor&quot;: &quot;Run&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -163,7 +237,7 @@
       <recent name="hokumei.sys.matchfriends.mapper" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OtherTest">
+  <component name="RunManager" selected="Spring Boot.UserManageSysApplication">
     <configuration name="DynamicProxyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="match-friends" />
       <extension name="coverage">
@@ -242,15 +316,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="match-friends-backend" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="match-friends-backend" />
-      <option name="filePath" />
+    <configuration name="match-friends中的所有" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="match-friends" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -347,7 +420,7 @@
       <method v="2" />
     </configuration>
     <configuration name="UserManageSysApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../Program Files/Java/jdk-17" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="match-friends" />
@@ -370,6 +443,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.match-friends中的所有" />
       <item itemvalue="JUnit.DynamicProxyTest" />
       <item itemvalue="JUnit.DynamicProxyTest.test" />
       <item itemvalue="JUnit.DynamicProxyTest.test2" />
@@ -443,6 +517,9 @@
       <workItem from="1737365503986" duration="1055000" />
       <workItem from="1737367870263" duration="38155000" />
       <workItem from="1738026695762" duration="38407000" />
+      <workItem from="1738292978281" duration="2167000" />
+      <workItem from="1738300315785" duration="2414000" />
+      <workItem from="1738303698894" duration="5491000" />
     </task>
     <servers />
   </component>
@@ -489,6 +566,11 @@
           <url>file://$PROJECT_DIR$/test/java/hokumei/sys/matchfriends/service/RedisTest.java</url>
           <line>46</line>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/controller/TeamController.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/model/User.java</url>

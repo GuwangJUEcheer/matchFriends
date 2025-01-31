@@ -119,6 +119,22 @@ public class TeamController {
         return ResultUtils.success(teamList);
     }
 
+
+    /**
+     * 全量查询
+     * @return 返回全部队伍
+     */
+    @GetMapping("/all")
+    public BaseResponse<List<Team>> getListAll(HttpServletRequest request) throws Exception {
+        User loginUser  = userService.getLoginUser(request);
+        if(loginUser == null){
+            throw new BusinessException(ErrorCode.NO_AUTH);
+        }
+        List<Team> teamList = teamService.getAllTeam();
+        return ResultUtils.success(teamList);
+    }
+
+
     /**
      * 分页查询
      * @param teamQuery 封装请求参数类

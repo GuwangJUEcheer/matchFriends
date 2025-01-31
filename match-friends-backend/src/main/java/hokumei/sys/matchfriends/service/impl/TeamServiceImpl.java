@@ -97,7 +97,7 @@ public class TeamServiceImpl extends ServiceImpl<TeamMapper, Team>
 
         //7 超时时间要在当前时间之后
         Date expireTime = Optional.ofNullable(team.getExpireTime()).orElse(new Date());
-        if(new Date().before(expireTime)){
+        if(new Date().after(expireTime)){
             throw new BusinessException(ErrorCode.PARAMS_ERROR,"时间设置错误");
         }
         //todo 这里有并发问题 有bug要改
@@ -271,10 +271,10 @@ public class TeamServiceImpl extends ServiceImpl<TeamMapper, Team>
             throw new BusinessException(ErrorCode.PARAMS_ERROR, "最多加入五个队伍");
         }
 
-        // 检查当前队伍的加入人数
+        // 检查是否加入了当前队伍
         userTeamQueryWrapper = new QueryWrapper<>();
         userTeamQueryWrapper.eq("team_id", teamId);
-        userTeamQueryWrapper.eq("user_id", userId).ge("expire_time", new Date());
+        userTeamQueryWrapper.eq("user_id", userId);
         long teamHasJoinNum = userTeamService.count(userTeamQueryWrapper);
         if (teamHasJoinNum >0) {
             throw new BusinessException(ErrorCode.NULL_ERROR, "不能重复加入");
@@ -392,6 +392,12 @@ public class TeamServiceImpl extends ServiceImpl<TeamMapper, Team>
         return this.removeById(teamId);
     }
 
+    @Override
+    public List<Team> getAllTeam() {
+        QueryWrapper<Team> queryWrapper = new QueryWrapper<>();
+        queryWrapper.ge("expire_time", new Date());
+        return this.list();
+    }
 }
 
 

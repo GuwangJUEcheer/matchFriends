@@ -1,6 +1,7 @@
 package hokumei.sys.matchfriends.domain;
 
 import lombok.Data;
+
 import java.io.Serializable;
 
 /**

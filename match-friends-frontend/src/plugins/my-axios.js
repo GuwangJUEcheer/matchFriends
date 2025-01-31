@@ -3,7 +3,7 @@ import axios from 'axios';
 // 创建 Axios 实例
 const myaxios = axios.create({
   baseURL: 'http://localhost:8080/api', // 修正拼写错误: locahost -> localhost
-  timeout: 10000, // 超时时间
+  timeout: 100000, // 超时时间
   headers: {
     'Content-Type': 'application/json', // 默认请求类型为 JSON
   },

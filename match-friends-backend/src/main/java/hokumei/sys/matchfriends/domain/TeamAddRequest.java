@@ -2,6 +2,8 @@ package hokumei.sys.matchfriends.domain;
 
 import lombok.Data;
 
+import java.util.Date;
+
 @Data
 public class TeamAddRequest {
 
@@ -21,11 +23,6 @@ public class TeamAddRequest {
 	private Integer maxNum;
 
 	/**
-	 * 用户ID
-	 */
-	private Long userId;
-
-	/**
 	 * 状态：0-公开, 1-私有, 2-加密
 	 */
 	private Integer status;
@@ -35,4 +32,8 @@ public class TeamAddRequest {
 	 */
 	private String password;
 
+	/**
+	 * 过期时间
+	 */
+	private Date expireTime;
 }

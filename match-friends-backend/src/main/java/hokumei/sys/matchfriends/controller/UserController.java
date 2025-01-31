@@ -113,7 +113,7 @@ public class UserController {
      * @return 每页用户的数据
      */
     @GetMapping("/recommend")
-    public BaseResponse<Page<User>> recommendUsers(long pageSize,long pageNumber,HttpServletRequest request) {
+    public BaseResponse<Page<User>> recommendUsers(@RequestParam("pageSize") long pageSize,@RequestParam("pageNumber")long pageNumber,HttpServletRequest request) {
         User loginUser = userService.getLoginUser(request);
         //第一步有缓存 从缓存中去查
         String userRedisKey = String.format("match friends:user:recommend:%s",loginUser.getId());

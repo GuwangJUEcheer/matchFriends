@@ -38,4 +38,6 @@ public interface TeamService extends IService<Team> {
 	boolean removeUserFromTeam(TeamQuitRequest request, User loginUser);
 
 	boolean deleteTeam(Long id, User loginUser);
+
+	List<Team> getAllTeam();
 }

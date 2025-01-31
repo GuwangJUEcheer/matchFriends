@@ -1,5 +1,6 @@
 package hokumei.sys.matchfriends.common;
 
+
 import lombok.Data;
 
 import java.io.Serializable;
