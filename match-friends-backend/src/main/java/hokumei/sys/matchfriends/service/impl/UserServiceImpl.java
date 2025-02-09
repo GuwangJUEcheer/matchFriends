@@ -10,14 +10,15 @@ import hokumei.sys.matchfriends.exception.BusinessException;
 import hokumei.sys.matchfriends.mapper.UserMapper;
 import hokumei.sys.matchfriends.model.User;
 import hokumei.sys.matchfriends.service.UserService;
+import hokumei.sys.matchfriends.utils.ArithmeticMatchUtils;
 import jakarta.servlet.http.HttpServletRequest;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.math3.util.Pair;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 import org.springframework.util.DigestUtils;
 
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
@@ -250,6 +251,39 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
     }
 
     @Override
+    public List<User> matchUsers(long num, User loginUser) {
+        QueryWrapper<User> queryWrapper = new QueryWrapper<>();
+        queryWrapper.select("id","tags");
+        queryWrapper.isNotNull("tags");
+        //Step 1 查询所有用户
+        List<User> userList = this.list(queryWrapper);
+
+        //目标tags
+        ObjectMapper objectMapper = new ObjectMapper();
+        String tags = loginUser.getTags();
+        List<String> tagList = this.readTagList(tags,objectMapper);
+        if(tagList == null){
+            return null;
+        }
+
+        //用户的下标 相似度
+        List<Pair<User,Integer>> userVOList = new ArrayList<>();
+        SortedMap<Integer,Integer> matchedUserMap = new TreeMap<>(Comparator.comparingInt(a -> a));
+        for(int i = 0;i<userList.size();i++){
+            User matchedUser = userList.get(i);
+            List<String> matchedUserTagList =this.readTagList(matchedUser.getTags(),objectMapper);
+            if(matchedUserTagList == null){
+                continue;
+            }
+            Integer value = ArithmeticMatchUtils.minEditDistance(tagList,matchedUserTagList);
+            matchedUserMap.put(i,value);
+            userVOList.add(new Pair<User,Integer>(matchedUser,value));
+        }
+        List<Pair<User, Integer>> topUserList = userVOList.stream().sorted(Comparator.comparingInt(Pair::getValue)).limit(5).toList();
+        return topUserList.stream().map(Pair::getKey).collect(Collectors.toList());
+    }
+
+    @Override
     public boolean isAdmin(HttpServletRequest request) {
         // 获取当前登录的用户
         Object userObj = request.getSession().getAttribute(USER_LOGIN_STATE);
@@ -266,5 +300,18 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
     @Override
     public boolean isAdmin(User loginUser) {
         return loginUser != null && loginUser.getRoleid() == UserConstant.ADMIN_ROLE;
+    }
+
+    private List<String> readTagList(String tags, ObjectMapper objectMapper){
+        if(StringUtils.isBlank(tags) || objectMapper == null){
+            return null;
+        }
+
+        try{
+            return objectMapper.readValue(tags, new TypeReference<List<String>>() {});
+        }
+        catch(Exception e){
+            return null;
+        }
     }
 }

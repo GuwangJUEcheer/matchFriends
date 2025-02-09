@@ -1,6 +1,7 @@
 package hokumei.sys.matchfriends.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import hokumei.sys.matchfriends.model.Team;
 import hokumei.sys.matchfriends.model.UserTeam;
 import hokumei.sys.matchfriends.model.vo.UserVO;
 import org.apache.ibatis.annotations.Param;
@@ -19,6 +20,10 @@ public interface UserTeamMapper extends BaseMapper<UserTeam> {
 	@Select(value = "SELECT distinct team.user_id,user.* FROM team LEFT JOIN user_team t ON team.id = t.team_id  \n" +
 			"left join user on user.id = t.user_id WHERE team.name = #{name}")
 	public List<UserVO> getAllTeamMembers(@Param(value="name") String name);
+
+	@Select(value = "SELECT team.* FROM team LEFT JOIN user_team t ON team.id = t.team_id  \n" +
+			"where t.user_id = #{userId}")
+	List<Team> getAllJoinedTeam(@Param(value="userId")Long userId);
 }
 
 

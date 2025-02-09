@@ -21,7 +21,7 @@ import { onMounted, ref } from 'vue';
 import { useRoute } from 'vue-router';
 import type { UserType } from '../models/user.d.ts';
 import { showSuccessToast, showFailToast } from 'vant';
-import myaxios from '../plugins/my-axios';
+import myaxios from '../plugins/my-axios.js';
 import qs from 'qs';
 
 const route = useRoute();

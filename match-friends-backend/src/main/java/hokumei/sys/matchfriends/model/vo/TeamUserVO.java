@@ -67,6 +67,16 @@ public class TeamUserVO implements Serializable
 	 */
 	private Integer isDelete;
 
+	/**
+	 * 已经加入队伍
+	 */
+	private boolean hasJoin = false;
+
+	/**
+	 * 加入的人数
+	 */
+	private int memberNum;
+
     List<UserVO> userVOList;
 
 	/**

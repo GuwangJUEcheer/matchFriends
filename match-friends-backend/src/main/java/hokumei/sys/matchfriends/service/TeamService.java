@@ -40,4 +40,7 @@ public interface TeamService extends IService<Team> {
 	boolean deleteTeam(Long id, User loginUser);
 
 	List<Team> getAllTeam();
+
+	List<Team> getAllJoinedTeam(Long userId);
+
 }

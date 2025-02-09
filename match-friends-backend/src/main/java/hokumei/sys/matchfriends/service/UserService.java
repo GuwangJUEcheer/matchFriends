@@ -46,4 +46,6 @@ public interface UserService extends IService<User> {
     boolean isAdmin(User loginUser);
 
     User getSafetyUser(User originUser);
+
+    List<User> matchUsers(long num,User loginUser);
 }

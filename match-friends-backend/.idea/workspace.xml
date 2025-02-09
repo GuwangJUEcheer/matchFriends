@@ -5,98 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa5116bb-6864-45da-9b71-b4f5322154a9" name="Changes" comment="Changes">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c4aace1e-eab9-460a-8a2e-f4d54b02ccff.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c4aace1e-eab9-460a-8a2e-f4d54b02ccff/storage_v2/_src_/schema/match-friends.jXG-wg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/common/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/common/BaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/utils/ArithmeticMatchUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/controller/TeamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/controller/TeamController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/domain/TeamAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/domain/TeamAddRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/domain/UserLoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/domain/UserLoginRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/domain/UserRegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/domain/UserRegisterRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/mapper/TagsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/mapper/TagsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/service/TagsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/service/TagsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/mapper/UserTeamMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/mapper/UserTeamMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/model/vo/TeamUserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/model/vo/TeamUserVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/service/TeamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/service/TeamService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/service/impl/TagsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/service/impl/TagsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/service/impl/TeamServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/service/impl/TeamServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/UserManageSysApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/common/BaseResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/common/ErrorCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/common/ResultUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/config/CorsConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/config/MybatisPlusConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/config/RedisConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/config/RedissionConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/constant/UserConstant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/constant/enums/TeamStatusEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/controller/TeamController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/domain/PageRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/domain/TeamAddRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/domain/TeamJoinRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/domain/TeamQuitRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/domain/TeamUpdateRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/domain/UserLoginRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/domain/UserRegisterRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/exception/BusinessException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/exception/GlobalExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/job/PreCacheJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/mapper/TagsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/mapper/TeamMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/mapper/UserTeamMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/model/Tags.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/model/Team.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/model/UserTeam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/model/dto/TeamQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/model/vo/TeamUserVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/model/vo/UserVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/TagsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/TeamService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/UserTeamService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/impl/TagsServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/impl/TeamServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/impl/UserServiceImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/impl/UserTeamServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/TagsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/TeamMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserTeamMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/CompleteFutureTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/DynamicProxyTest$AService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/DynamicProxyTest$AServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/DynamicProxyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/InsetMultiUsersTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/OtherTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/ProxySample1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/RedisTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/RedissonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/ScheduleTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/ScheduleTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/ScheduleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/TransactionalTest$Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hokumei/sys/matchfriends/service/TransactionalTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/controller/TeamController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/controller/TeamController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/mapper/UserTeamMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/mapper/UserTeamMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/model/vo/TeamUserVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/model/vo/TeamUserVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/TeamService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/TeamService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/impl/TeamServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/impl/TeamServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/impl/UserServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/impl/UserServiceImpl$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hokumei/sys/matchfriends/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../match-friends-frontend/auto-imports.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../match-friends-frontend/auto-imports.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../match-friends-frontend/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../match-friends-frontend/components.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../match-friends-frontend/src/pages/TeamAddPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../match-friends-frontend/src/pages/TeamAddPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../match-friends-frontend/src/plugins/my-axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/../match-friends-frontend/src/plugins/my-axios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../match-friends-frontend/src/config/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../match-friends-frontend/src/config/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../match-friends-frontend/src/layouts/BasicLayOut.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../match-friends-frontend/src/layouts/BasicLayOut.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../match-friends-frontend/src/models/team.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../match-friends-frontend/src/models/team.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../match-friends-frontend/src/pages/SearchResultPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../match-friends-frontend/src/pages/SearchResultPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../match-friends-frontend/src/pages/Team.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../match-friends-frontend/src/pages/Team.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../match-friends-frontend/src/pages/TeamCardList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../match-friends-frontend/src/pages/TeamCardList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../match-friends-frontend/src/pages/User.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../match-friends-frontend/src/pages/UserCardList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../match-friends-frontend/src/pages/UserCardList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../match-friends-frontend/src/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../match-friends-frontend/src/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../match-friends-frontend/src/plugins/my-axios.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -519,7 +459,8 @@
       <workItem from="1738026695762" duration="38407000" />
       <workItem from="1738292978281" duration="2167000" />
       <workItem from="1738300315785" duration="2414000" />
-      <workItem from="1738303698894" duration="5491000" />
+      <workItem from="1738303698894" duration="8455000" />
+      <workItem from="1738496678505" duration="28268000" />
     </task>
     <servers />
   </component>
@@ -528,6 +469,17 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.cmd" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -554,12 +506,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/service/impl/UserServiceImpl.java</url>
-          <line>198</line>
+          <line>200</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/service/impl/UserServiceImpl.java</url>
-          <line>256</line>
+          <line>291</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -569,8 +521,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/controller/TeamController.java</url>
-          <line>45</line>
+          <line>55</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/controller/UserController.java</url>
+          <line>179</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/hokumei/sys/matchfriends/model/User.java</url>

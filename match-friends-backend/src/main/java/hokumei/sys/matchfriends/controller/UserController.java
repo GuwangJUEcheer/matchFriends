@@ -174,4 +174,14 @@ public class UserController {
         Integer result = userService.updateUser(user,loginUser,request);
         return ResultUtils.success(result);
     }
+
+    @GetMapping("/match")
+    public BaseResponse<List<User>> getMatchUsers(@RequestParam("num") Long num,HttpServletRequest request) {
+        User loginUser = userService.getLoginUser(request);
+        if(loginUser == null){
+            throw new BusinessException(ErrorCode.PARAMS_ERROR);
+        }
+        List<User> userList = userService.matchUsers(num,loginUser);
+        return ResultUtils.success(userList);
+    }
 }

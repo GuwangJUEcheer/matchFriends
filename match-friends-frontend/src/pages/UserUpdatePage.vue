@@ -16,9 +16,9 @@
 
 <script setup lang="ts">
 import { useRouter } from 'vue-router';
-import type { UserType } from '../models/user.d.ts';
+import type { UserType } from '../models/user.js';
 import { onMounted, ref } from 'vue';
-import getCurrentUser  from '../services/user';
+import getCurrentUser  from '../services/user.js';
 const router = useRouter();
 
 const user = ref<UserType>();
